@@ -3,8 +3,8 @@
 ;; This is free and unencumbered software released into the public domain.
 
 ;; Author: Christopher Wellons <wellons@nullprogram.com>
-;; URL: https://github.com/skeeto/nasm-mode
-;; Version: 1.1.2
+;; URL: https://github.com/aidan-hall/nasm-mode
+;; Version: 1.1.3
 ;; Package-Requires: ((emacs "24.3"))
 
 ;;; Commentary:
