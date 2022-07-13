@@ -755,6 +755,9 @@ With a prefix arg, kill the comment on the current line with
         comment-insert-comment-function #'nasm-insert-comment
         imenu-generic-expression nasm-imenu-generic-expression))
 
+;;;###autoload
+(add-to-list 'auto-mode-alist '("\\.[ny]asm\\'" . nasm-mode))
+
 (provide 'nasm-mode)
 
 ;;; nasm-mode.el ends here
