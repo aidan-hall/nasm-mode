@@ -756,7 +756,7 @@ With a prefix arg, kill the comment on the current line with
         imenu-generic-expression nasm-imenu-generic-expression))
 
 ;;;###autoload
-(add-to-list 'auto-mode-alist '("\\.[ny]asm\\'" . nasm-mode))
+(add-to-list 'auto-mode-alist '("\\.nasm\\'" . nasm-mode))
 
 (provide 'nasm-mode)
 
